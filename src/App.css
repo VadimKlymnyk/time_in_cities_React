@@ -10,6 +10,7 @@ body{
 }
 .content{
   width: 100%;
+  height: 100%; 
   
   
 }
@@ -29,9 +30,11 @@ body{
   height: 100%;
   width: 100%;
   max-width: 1600px;
-  width: 100%;
-  margin:300px auto;
-  
+  margin: 10% auto;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+
   
   
 }
@@ -56,6 +59,7 @@ body{
   margin: 0;
   width: 100%;
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-evenly;
 }
 .time_{
@@ -72,6 +76,7 @@ span {
   min-height: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items:center;
 }
 .deb_title{
@@ -93,10 +98,10 @@ input{
   
   background-color: #282a33 ;
   height: 50px;
-  width: 145px;
+  width: 150px;
   color: white;
   font-size: 20px;
-  margin: 1%;
+  margin: 7%;
   border: 0;
   border-radius: 2%;
 }
